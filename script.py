@@ -42,3 +42,13 @@ if page == "Disparities":
     st.write(sorted_df.head())
 
 # growth trends
+
+if page == "Growth Trends":
+    st.subheader("Internet Usage Growth Trends")
+    if 'growth_rate' in df.columns:
+        fig = px.scatter(df, x='Year', y='growth_rate', color='Region',
+                         title="Internet Usage Growth by Region")
+        st.plotly_chart(fig)
+    else:
+        st.write("Growth data not available. Please ensure your dataset includes multi-year data.")
+
