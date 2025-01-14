@@ -1,4 +1,4 @@
-#Project Description:
+##Project Description:
 An educational dashboard that visualizes and analyzes global internet usage data. This dashboard aims to:
 
 #Provide an overview of global internet statistics, including total users and average penetration rates.
@@ -6,7 +6,7 @@ Highlight disparities in internet usage across different countries or regions.
 Display growth trends in internet usage over time.
 Offer educational content explaining the importance of internet access in various life aspects like education, economy, health, and social connectivity.
 
-#Technologies Used:
+Technologies Used:
 Python - The primary programming language for scripting and data manipulation.
 Pandas for data manipulation, cleaning, and analysis.
 Seaborn for creating statistical data visualizations. (We switched from Plotly to Seaborn upon your request.)
@@ -17,7 +17,7 @@ Embed data visualizations directly in the web app.
 Implement navigation through a sidebar.
 
 
-#Install Dependencies:
+Install Dependencies:
 Install the required Python packages:
 
 pip install pandas streamlit seaborn
@@ -26,7 +26,7 @@ pip install pandas streamlit seaborn
 Make sure you have the internet_users.csv file in a directory named CSV at the same level as your script file. https://www.kaggle.com/datasets/kanchana1990/world-internet-usage-data-2023-updated
 
 
-#Run the Application:
+Run the Application:
 Navigate to the directory containing your script.py in the terminal or command prompt.
 Run the Streamlit app with:
 
