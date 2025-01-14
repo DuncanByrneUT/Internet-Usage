@@ -1,4 +1,4 @@
-##Project Description:
+Project Description:
 An educational dashboard that visualizes and analyzes global internet usage data. This dashboard aims to:
 
 #Provide an overview of global internet statistics, including total users and average penetration rates.
